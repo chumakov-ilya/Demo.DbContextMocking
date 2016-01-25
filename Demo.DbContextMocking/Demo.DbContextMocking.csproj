@@ -56,6 +56,7 @@
     <Compile Include="Context\ContextFactory.cs" />
     <Compile Include="Context\IContextFactory.cs" />
     <Compile Include="Context\IFooContext.cs" />
+    <Compile Include="DI\AppModule.cs" />
     <Compile Include="Models\FooContext.cs" />
     <Compile Include="Models\Mapping\ReportMap.cs" />
     <Compile Include="Models\Report.cs" />
@@ -74,9 +75,7 @@
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Entity.tt" />
     <Content Include="CodeTemplates\ReverseEngineerCodeFirst\Mapping.tt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
