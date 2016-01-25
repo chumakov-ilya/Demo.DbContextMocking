@@ -15,13 +15,13 @@ namespace Demo.DbContextMocking.IsolatedTests
 		{
 			var kernel = new StandardKernel();
 			kernel.Load<AppModule>();
-			kernel.Load<MockModule>();
+			kernel.Load<MockModule>(); //order is important. In MockModule we rebind IContextFactory
 
 			var repo = kernel.Get<ReportRepository>();
 
 			var reports = repo.GetReports();
 
-			Assert.IsNotEmpty(reports);
+			Assert.IsEmpty(reports);
 		}
 	}
 }
