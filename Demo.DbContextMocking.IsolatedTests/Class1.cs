@@ -3,18 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework;
 
-namespace Demo.DbContextMocking.Tests
+namespace Demo.DbContextMocking.IsolatedTests
 {
     public class Class1
     {
-	    [Test]
-	    public void MyMethod()
-	    {
-		    var repo = new ReportRepository();
-
-
-	    }
     }
 }
