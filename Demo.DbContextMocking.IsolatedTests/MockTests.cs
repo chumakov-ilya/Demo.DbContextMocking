@@ -9,8 +9,8 @@ using NUnit.Framework;
 
 namespace Demo.DbContextMocking.IsolatedTests
 {
-    public class MockTests
-    {
+	public class MockTests
+	{
 		[Test]
 		public void RealRepository_WhenCalled_ReturnsMockData()
 		{
@@ -18,7 +18,7 @@ namespace Demo.DbContextMocking.IsolatedTests
 			kernel.Load<AppModule>();
 			//Order is important. In MockModule we rebind IContextFactory.
 			//Another option is to load MockModule only.
-			kernel.Load<MockModule>(); 
+			kernel.Load<MockModule>();
 
 			var repo = kernel.Get<ReportRepository>();
 

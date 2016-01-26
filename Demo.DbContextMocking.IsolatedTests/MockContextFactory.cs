@@ -10,7 +10,7 @@ namespace Demo.DbContextMocking.IsolatedTests
 	{
 		public IFooContext Create()
 		{
-			var mockRepository = new MockRepository(MockBehavior.Loose) { DefaultValue = DefaultValue.Mock };
+			var mockRepository = new MockRepository(MockBehavior.Default);
 
 			var mockContext = mockRepository.Create<IFooContext>();
 
