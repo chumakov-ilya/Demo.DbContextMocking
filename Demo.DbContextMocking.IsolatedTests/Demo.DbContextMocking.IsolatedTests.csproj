@@ -70,9 +70,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DbContextMocking\Demo.DbContextMocking.csproj">
+    <ProjectReference Include="..\Demo.DbContextMocking.Entities\Demo.DbContextMocking.Entities.csproj">
       <Project>{81ddf178-8017-4c6e-9efd-e98087ba3828}</Project>
-      <Name>Demo.DbContextMocking</Name>
+      <Name>Demo.DbContextMocking.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

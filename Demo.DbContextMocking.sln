@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking", "Demo.DbContextMocking\Demo.DbContextMocking.csproj", "{81DDF178-8017-4C6E-9EFD-E98087BA3828}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking.IntegrationTests", "Demo.DbContextMocking.IntegrationTests\Demo.DbContextMocking.IntegrationTests.csproj", "{EC62F23F-7C6B-4A7D-BD06-B5A27497A1C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking.IsolatedTests", "Demo.DbContextMocking.IsolatedTests\Demo.DbContextMocking.IsolatedTests.csproj", "{2B5611B3-C294-4B39-917F-FA4FC915807A}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Demo.DbContextMocking.Sql", "Demo.DbContextMocking.Sql\Demo.DbContextMocking.Sql.sqlproj", "{9EC2CF06-3327-43DF-812A-550C65627595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking.Entities", "Demo.DbContextMocking.Entities\Demo.DbContextMocking.Entities.csproj", "{81DDF178-8017-4C6E-9EFD-E98087BA3828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC62F23F-7C6B-4A7D-BD06-B5A27497A1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC62F23F-7C6B-4A7D-BD06-B5A27497A1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC62F23F-7C6B-4A7D-BD06-B5A27497A1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +31,10 @@ Global
 		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDF178-8017-4C6E-9EFD-E98087BA3828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

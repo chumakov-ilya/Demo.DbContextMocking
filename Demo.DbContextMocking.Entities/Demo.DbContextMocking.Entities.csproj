@@ -7,8 +7,8 @@
     <ProjectGuid>{81DDF178-8017-4C6E-9EFD-E98087BA3828}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.DbContextMocking</RootNamespace>
-    <AssemblyName>Demo.DbContextMocking</AssemblyName>
+    <RootNamespace>Demo.DbContextMocking.Entities</RootNamespace>
+    <AssemblyName>Demo.DbContextMocking.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
