@@ -1,7 +1,6 @@
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace Demo.DbContextMocking.Models.Mapping
+namespace Demo.DbContextMocking.Entities.Mapping
 {
     public class ReportMap : EntityTypeConfiguration<Report>
     {

@@ -1,4 +1,4 @@
-﻿namespace Demo.DbContextMocking
+﻿namespace Demo.DbContextMocking.Entities
 {
 	public interface IContextFactory
 	{

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using Demo.DbContextMocking.Models;
+using Demo.DbContextMocking.Entities;
 using Moq;
 
 namespace Demo.DbContextMocking.IsolatedTests

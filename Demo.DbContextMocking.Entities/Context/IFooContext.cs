@@ -2,9 +2,8 @@ using System;
 using System.Data.Entity;
 using System.Threading;
 using System.Threading.Tasks;
-using Demo.DbContextMocking.Models;
 
-namespace Demo.DbContextMocking
+namespace Demo.DbContextMocking.Entities
 {
 	public interface IFooContext : IDisposable
 	{

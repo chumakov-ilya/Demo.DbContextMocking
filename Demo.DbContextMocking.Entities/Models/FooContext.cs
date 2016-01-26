@@ -1,8 +1,7 @@
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using Demo.DbContextMocking.Models.Mapping;
+using Demo.DbContextMocking.Entities.Mapping;
 
-namespace Demo.DbContextMocking.Models
+namespace Demo.DbContextMocking.Entities
 {
     public partial class FooContext : DbContext, IFooContext
     {

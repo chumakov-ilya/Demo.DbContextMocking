@@ -1,4 +1,5 @@
-﻿using Ninject.Modules;
+﻿using Demo.DbContextMocking.Entities;
+using Ninject.Modules;
 
 namespace Demo.DbContextMocking.IsolatedTests
 {

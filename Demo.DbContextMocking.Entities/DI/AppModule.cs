@@ -1,6 +1,6 @@
 ﻿using Ninject.Modules;
 
-namespace Demo.DbContextMocking
+namespace Demo.DbContextMocking.Entities
 {
 	public class AppModule : NinjectModule
 	{

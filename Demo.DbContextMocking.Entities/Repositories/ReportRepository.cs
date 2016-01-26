@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Demo.DbContextMocking.Models;
 using Ninject;
 
-namespace Demo.DbContextMocking
+namespace Demo.DbContextMocking.Entities
 {
 	public class ReportRepository
 	{
@@ -16,7 +15,6 @@ namespace Demo.DbContextMocking
 			{
 				return context.Reports.ToList();
 			}
-
 		}
 	}
 }

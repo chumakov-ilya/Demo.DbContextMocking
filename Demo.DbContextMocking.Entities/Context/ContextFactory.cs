@@ -1,6 +1,4 @@
-﻿using Demo.DbContextMocking.Models;
-
-namespace Demo.DbContextMocking
+﻿namespace Demo.DbContextMocking.Entities
 {
 	public class ContextFactory : IContextFactory
 	{

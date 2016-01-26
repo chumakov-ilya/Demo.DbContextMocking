@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-namespace Demo.DbContextMocking.Models
+namespace Demo.DbContextMocking.Entities
 {
     public partial class Report
     {
