@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking.Integ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DbContextMocking.IsolatedTests", "Demo.DbContextMocking.IsolatedTests\Demo.DbContextMocking.IsolatedTests.csproj", "{2B5611B3-C294-4B39-917F-FA4FC915807A}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Demo.DbContextMocking.Sql", "Demo.DbContextMocking.Sql\Demo.DbContextMocking.Sql.sqlproj", "{9EC2CF06-3327-43DF-812A-550C65627595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{2B5611B3-C294-4B39-917F-FA4FC915807A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B5611B3-C294-4B39-917F-FA4FC915807A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B5611B3-C294-4B39-917F-FA4FC915807A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC2CF06-3327-43DF-812A-550C65627595}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
