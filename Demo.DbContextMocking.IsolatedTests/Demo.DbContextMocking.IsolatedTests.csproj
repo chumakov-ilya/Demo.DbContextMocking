@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MockContextFactory.cs" />
     <Compile Include="MockModule.cs" />
     <Compile Include="MockTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
